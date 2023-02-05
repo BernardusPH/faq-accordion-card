@@ -1,0 +1,43 @@
+
+
+.main-pic {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -8rem;
+    background-image: url("../../../images/bg-pattern-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center 75%; 
+    background-size: contain;
+    width: 220px;
+    aspect-ratio: 1/1;
+    display: block;
+
+
+}
+img{
+ width: 100%;
+}
+
+@media(min-width:740px) {
+    .picture-container{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 30;
+    }
+    .main-pic {
+     position: static;
+     width: 35rem;
+     background-image: url("../../../images/bg-pattern-desktop.svg");
+     transform: translate(-6rem, 4rem);
+     background-position-y: -30%;
+
+     width:100%;
+  
+     
+    }
+}
+
+

@@ -1,0 +1,10 @@
+@media(max-width:740px){
+    footer{
+        display: none;
+    }
+   
+
+}
+footer,footer a {
+    font-size: 2rem ;
+}
