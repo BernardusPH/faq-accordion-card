@@ -1,5 +1,5 @@
 import Picture from "./lady-photo/Pictute"
-import Questions from "./text/questions";
+import Questions from "./text/Questions";
 import Cube from "../../images/illustration-box-desktop.svg";
 import "./MainContainer.css"
 function MainContainer() {
