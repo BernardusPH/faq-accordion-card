@@ -1,5 +1,5 @@
 import Records from "../../../questions.json"
-import Question from "./question";
+import Question from "./Question.jsx";
 import "./Questions.css"
 function Questions() {
     let questionsAns=Records.map(item=>{
