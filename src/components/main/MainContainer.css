@@ -15,6 +15,7 @@
 }
 @media(min-width:740px) {
    .main{
+    max-height: 450px;
     width: clamp(580px,90%,900px);
     flex-direction:row;
     margin-bottom: 3rem;
